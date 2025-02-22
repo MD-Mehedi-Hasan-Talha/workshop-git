@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "price": 99.99,
+      "description": "High-quality wireless headphones with noise cancellation.",
+      "category": "Electronics",
+      "image": "https://example.com/image1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mechanical Keyboard",
+      "price": 79.99,
+      "description": "RGB mechanical keyboard with customizable keys.",
+      "category": "Accessories",
+      "image": "https://example.com/image2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Gaming Mouse",
+      "price": 49.99,
+      "description": "Ergonomic gaming mouse with adjustable DPI settings.",
+      "category": "Accessories",
+      "image": "https://example.com/image3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Smart Watch",
+      "price": 129.99,
+      "description": "Feature-packed smartwatch with health tracking.",
+      "category": "Wearables",
+      "image": "https://example.com/image4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Bluetooth Speaker",
+      "price": 59.99,
+      "description": "Portable Bluetooth speaker with deep bass.",
+      "category": "Audio",
+      "image": "https://example.com/image5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Laptop Stand",
+      "price": 29.99,
+      "description": "Adjustable laptop stand for better ergonomics.",
+      "category": "Accessories",
+      "image": "https://example.com/image6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "USB-C Hub",
+      "price": 39.99,
+      "description": "Multi-port USB-C hub with HDMI and Ethernet support.",
+      "category": "Accessories",
+      "image": "https://example.com/image7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Noise Cancelling Earbuds",
+      "price": 89.99,
+      "description": "True wireless earbuds with active noise cancellation.",
+      "category": "Audio",
+      "image": "https://example.com/image8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "4K Monitor",
+      "price": 299.99,
+      "description": "Ultra HD 4K monitor with HDR support.",
+      "category": "Electronics",
+      "image": "https://example.com/image9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "External Hard Drive",
+      "price": 119.99,
+      "description": "2TB external hard drive with fast transfer speeds.",
+      "category": "Storage",
+      "image": "https://example.com/image10.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Smartphone Gimbal",
+      "price": 89.99,
+      "description": "3-axis gimbal stabilizer for smartphones.",
+      "category": "Photography",
+      "image": "https://example.com/image11.jpg"
+    },
+    {
+      "id": 12,
+      "name": "VR Headset",
+      "price": 249.99,
+      "description": "Immersive VR headset with motion tracking.",
+      "category": "Gaming",
+      "image": "https://example.com/image12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Portable Projector",
+      "price": 199.99,
+      "description": "Compact HD projector with built-in battery.",
+      "category": "Electronics",
+      "image": "https://example.com/image13.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Mechanical Gaming Chair",
+      "price": 199.99,
+      "description": "Ergonomic gaming chair with lumbar support.",
+      "category": "Furniture",
+      "image": "https://example.com/image14.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Graphics Tablet",
+      "price": 149.99,
+      "description": "Professional graphics tablet for digital artists.",
+      "category": "Art & Design",
+      "image": "https://example.com/image15.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Action Camera",
+      "price": 179.99,
+      "description": "4K action camera with waterproof casing.",
+      "category": "Photography",
+      "image": "https://example.com/image16.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Wireless Charging Pad",
+      "price": 29.99,
+      "description": "Fast wireless charging pad for smartphones.",
+      "category": "Accessories",
+      "image": "https://example.com/image17.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Smart Light Bulb",
+      "price": 19.99,
+      "description": "Wi-Fi enabled smart bulb with color changing options.",
+      "category": "Smart Home",
+      "image": "https://example.com/image18.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Electric Toothbrush",
+      "price": 49.99,
+      "description": "Rechargeable electric toothbrush with multiple modes.",
+      "category": "Health & Beauty",
+      "image": "https://example.com/image19.jpg"
+    },
+    {
+      "id": 20,
+      "name": "E-Reader",
+      "price": 129.99,
+      "description": "Lightweight e-reader with adjustable backlight.",
+      "category": "Electronics",
+      "image": "https://example.com/image20.jpg"
+    }
+  ]
+}
