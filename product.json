@@ -1,0 +1,84 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Wireless Bluetooth Headphones",
+            "price": 59.99,
+            "description": "High-quality wireless headphones with noise cancellation.",
+            "category": "Electronics",
+            "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?q=80&w=2940&auto=format&fit=crop"
+        },
+        {
+            "id": 2,
+            "name": "Smartphone 128GB",
+            "price": 699.99,
+            "description": "Latest model smartphone with 128GB storage and dual cameras.",
+            "category": "Electronics",
+            "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?q=80&w=2940&auto=format&fit=crop"
+        },
+        {
+            "id": 3,
+            "name": "Gaming Laptop",
+            "price": 1299.99,
+            "description": "Powerful gaming laptop with RTX 4060 and 16GB RAM.",
+            "category": "Computers",
+            "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?q=80&w=2940&auto=format&fit=crop"
+        },
+        {
+            "id": 4,
+            "name": "Wireless Mechanical Keyboard",
+            "price": 89.99,
+            "description": "RGB backlit wireless mechanical keyboard with brown switches.",
+            "category": "Accessories",
+            "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?q=80&w=2940&auto=format&fit=crop"
+        },
+        {
+            "id": 5,
+            "name": "Smartwatch",
+            "price": 199.99,
+            "description": "Fitness tracking smartwatch with heart rate monitor.",
+            "category": "Wearables",
+            "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?q=80&w=2940&auto=format&fit=crop"
+        },
+        {
+            "id": 6,
+            "name": "4K Ultra HD TV",
+            "price": 799.99,
+            "description": "55-inch 4K UHD Smart TV with HDR support.",
+            "category": "Electronics",
+            "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?q=80&w=2940&auto=format&fit=crop"
+        },
+        {
+            "id": 7,
+            "name": "Portable Bluetooth Speaker",
+            "price": 49.99,
+            "description": "Waterproof Bluetooth speaker with deep bass.",
+            "category": "Audio",
+            "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?q=80&w=2940&auto=format&fit=crop"
+        },
+        {
+            "id": 8,
+            "name": "DSLR Camera",
+            "price": 999.99,
+            "description": "Professional DSLR camera with 24MP sensor and 4K video.",
+            "category": "Cameras",
+            "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?q=80&w=2940&auto=format&fit=crop"
+        },
+        {
+            "id": 9,
+            "name": "Electric Toothbrush",
+            "price": 39.99,
+            "description": "Rechargeable electric toothbrush with multiple modes.",
+            "category": "Personal Care",
+            "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?q=80&w=2940&auto=format&fit=crop"
+        },
+        {
+            "id": 10,
+            "name": "Office Chair",
+            "price": 129.99,
+            "description": "Ergonomic office chair with lumbar support.",
+            "category": "Furniture",
+            "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?q=80&w=2940&auto=format&fit=crop"
+        }
+    ]
+}
