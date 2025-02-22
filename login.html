@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Daily Shop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#06C39D',
+            dark_primary: '#027f66',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <main class="h-screen bg-[#fbfcff] md:p-12 p-4 flex items-center justify-center">
+    <div class="bg-[white] text-black m-auto md:w-[800px] w-full md:min-h-auto md:rounded-none rounded-md overflow-hidden shadow-lg grid md:grid-cols-2">
+      <div class="order-2 bg-primary text-white w-full p-9 h-full md:block hidden">
+        <img src="./assets/image/vct2.svg" class="w-[260px] m-auto" alt="vectors ">
+        <h1 class="text-white text-4xl font-[100] text-center">Daily Shop</h1>
+      </div>
+      <form class="order-1 p-9">
+        <h1 class="font-bold text-3xl">Login</h1>
+        <p class="text-[#5E5E5E] mt-2">Login with your email and password</p>
+        <!-- email input -->
+        <div class="mt-5">
+          <input type="email" id="email" placeholder="Email"
+            class="border w-full h-10 px-3 py-2 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block" />
+        </div>
+        <!-- password input -->
+        <div class="mt-6">
+          <input type="password" id="password" placeholder="Password"
+            class="border w-full h-10 px-3 py-2 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block" />
+        </div>
+
+        <div class="mt-3 flex items-center justify-between">
+            <div class="flex gap-1 items-center">
+                <input type="checkbox" name="remember" id="remember" class="w-4 h-4">
+                <label for="remember" class="text-[#5E5E5E]">Remember me</label>
+            </div>
+
+            <a href="#" class="text-primary hover:underline hover:text-dark_primary">Forgot Password ?</a>
+        </div>
+
+        <button
+          class="bg-primary hover:bg-dark_primary duration-300 text-white border w-full h-10 px-3 py-2 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block mt-6"
+          type="submit">Sign In</button>
+          <div class="text-center m-auto mt-3">
+              Don't have an account ? <a href="/signup.html" class="text-primary hover:underline hover:text-dark_primary">Sign Up</a>
+          </div>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>
