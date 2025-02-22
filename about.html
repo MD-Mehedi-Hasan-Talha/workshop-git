@@ -41,6 +41,37 @@
         color: #e74c3c;
         font-style: italic;
       }
+      .team-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+      }
+
+      .team-member {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .team-member h3 {
+        color: #2c3e50;
+        margin: 0 0 10px 0;
+        border-bottom: none;
+      }
+
+      .role {
+        color: #3498db;
+        font-weight: bold;
+        margin: 5px 0;
+      }
+
+      @media (max-width: 768px) {
+        .team-grid {
+          grid-template-columns: 1fr;
+        }
+      }
     </style>
   </head>
   <body>
@@ -155,7 +186,7 @@
           <p>Responsible for project architecture and team coordination</p>
         </div>
         <div class="team-member">
-          <h3>Saif Ahmed</h3>
+          <h3>Soab Mahmud Syfuddhin</h3>
           <p class="role">Developer</p>
           <p>Frontend development and documentation</p>
         </div>
