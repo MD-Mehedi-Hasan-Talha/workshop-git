@@ -3,57 +3,146 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Us</title>
+    <title>Git Practice - About</title>
     <style>
       body {
         font-family: Arial, sans-serif;
         line-height: 1.6;
         margin: 0;
         padding: 20px;
-        max-width: 800px;
+        max-width: 1200px;
         margin: 0 auto;
       }
       .about-section {
         margin-bottom: 30px;
+        background: #f5f5f5;
+        padding: 20px;
+        border-radius: 8px;
       }
-      h1 {
-        color: #333;
-        border-bottom: 2px solid #333;
+      h1,
+      h2 {
+        color: #2c3e50;
+        border-bottom: 2px solid #3498db;
         padding-bottom: 10px;
+      }
+      .commands-list li {
+        display: flex;
+        flex-direction: column;
+      }
+      .command-block {
+        background: #2c3e50;
+        color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        font-family: monospace;
+        margin: 10px 0;
+      }
+      .note {
+        color: #e74c3c;
+        font-style: italic;
       }
     </style>
   </head>
   <body>
     <div class="about-section">
-      <h1>About Us</h1>
+      <h1>Git Practice Workshop</h1>
       <p>
-        Welcome to our website! We are passionate about delivering excellence in
-        everything we do.
+        Welcome to our Git practice session! This page is designed to help you
+        understand basic Git commands and workflows while practicing version
+        control.
       </p>
     </div>
 
     <div class="about-section">
-      <h2>Our Mission</h2>
+      <h2>Essential Git Commands</h2>
+      <p>Here are the fundamental Git commands you'll use in this practice:</p>
+
+      <h3>Repository Setup</h3>
+      <div class="command-block">
+        git init<br />
+        git clone [repository-url]<br />
+        git remote add origin [repository-url]
+      </div>
+
+      <h3>Basic Workflow Commands</h3>
+      <div class="command-block">
+        git status<br />
+        git add [file-name] or git add .<br />
+        git commit -m "commit message"<br />
+        git push origin [branch-name]
+      </div>
+
+      <h3>Branch Operations</h3>
+      <div class="command-block">
+        git branch [branch-name]<br />
+        git checkout [branch-name]<br />
+        git checkout -b [new-branch-name]<br />
+        git merge [branch-name]
+      </div>
+    </div>
+
+    <div class="about-section">
+      <h2>Practice Exercise</h2>
       <p>
-        Our mission is to provide outstanding services/products while
-        maintaining the highest standards of quality and customer satisfaction.
+        In this exercise, you'll practice creating and managing an About page:
+      </p>
+      <ol class="commands-list">
+        <li>
+          Create a new branch:
+          <span class="command-block">git checkout -b feature/about-page</span>
+        </li>
+        <li>Make changes to this file</li>
+        <li>
+          Stage changes: <span class="command-block">git add about.html</span>
+        </li>
+        <li>
+          Commit changes:
+          <span class="command-block"
+            >git commit -m "Add about page content"</span
+          >
+        </li>
+        <li>
+          Push to remote:
+          <span class="command-block">git push origin feature/about-page</span>
+        </li>
+      </ol>
+      <p class="note">
+        Remember to always pull the latest changes before starting work!
       </p>
     </div>
 
     <div class="about-section">
-      <h2>Our Team</h2>
-      <p>
-        We are a dedicated team of professionals committed to delivering the
-        best results for our clients. Our diverse backgrounds and expertise
-        allow us to tackle challenges from multiple perspectives.
-      </p>
+      <h2>Common Issues and Solutions</h2>
+      <p>Here are some common Git issues you might encounter:</p>
+      <ul class="commands-list">
+        <li>
+          <strong>Merge Conflicts:</strong> Occur when different branches modify
+          the same code
+        </li>
+        <li>
+          <strong>Push Rejection:</strong> Usually means you need to pull latest
+          changes first
+        </li>
+        <li>
+          <strong>Branch Issues:</strong> Always verify your current branch with
+          <span class="command-block">git branch</span>
+        </li>
+      </ul>
     </div>
 
     <div class="about-section">
-      <h2>Contact Us</h2>
-      <p>Have questions? We'd love to hear from you. Send us a message at:</p>
-      <p>Email: contact@example.com</p>
-      <p>Phone: (555) 123-4567</p>
+      <h2>Contact Support</h2>
+      <p>If you need help during the practice session:</p>
+      <p>Email: git-support@example.com</p>
+      <p>
+        Workshop Repository:
+        <a href="//github.com/MD-Mehedi-Hasan-Talha/workshop-git">
+          https://github.com/MD-Mehedi-Hasan-Talha/workshop-git</a
+        >
+      </p>
+      <p>
+        Documentation: <a href="https://git-scm.com/doc">Git Documentation</a>
+      </p>
     </div>
   </body>
 </html>
