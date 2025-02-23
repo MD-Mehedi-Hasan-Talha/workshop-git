@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product page</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="bg-white">
+      <div
+        class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8"
+      >
+        <h2 class="text-2xl font-bold tracking-tight text-gray-900">
+          Product List
+        </h2>
+
+        <div
+          id="product-container"
+          class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8"
+        >
+          <!-- product cart that show product details -->
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // fetch product data
+      async function fetchedData() {
+        const res = await fetch("./data/products.json");
+        const data = await res.json();
+        displayProduct(data.products);
+      }
+
+      // display product data
+      function displayProduct(products) {
+        const productContainer = document.getElementById("product-container");
+        productContainer.innerHTML = "";
+        products.forEach((product) => {
+          productContainer.innerHTML += `
+          <div class="group relative">
+            <img
+              src="${product.image}"
+              alt="${product.name}"
+              class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80"
+            />
+            <div class="mt-4 flex justify-between">
+              <div>
+                <h3 class="text-sm text-gray-900">
+                  <a href="#">
+                    <span aria-hidden="true" class="absolute inset-0"></span>
+                   ${product.name}
+                  </a>
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">${product.description}</p>
+              </div>
+              <p class="text-sm font-medium text-gray-900">$${product.price}</p>
+            
+            </div>
+          </div>
+        `;
+        });
+      }
+
+      fetchedData();
+    </script>
+  </body>
+</html>
