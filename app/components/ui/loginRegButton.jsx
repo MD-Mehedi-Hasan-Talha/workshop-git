@@ -1,28 +1,20 @@
-
 import Link from "next/link";
 
 export default function LoginRegButton() {
   return (
-    <div className="flex w-screen bg-zinc-400 gap-4 items-center justify-end">
+    <div className="flex gap-6">
       <Link
         href="/login"
-        className="bg-teal-500 text-whit px-4 py-2 text-lg rounded-md shadow-sm"
+        className="text-white  px-8 py-3 text-lg "
       >
         Login
       </Link>
       <Link
         href="/sign-up"
-        className="bg-purple-500 text-whit px-4 py-2 text-lg rounded-md shadow-sm"
+        className="text-white   px-8 py-3 text-lg "
       >
         Sign-up
-      </Link>
-      <Link
-        href="/about"
-        className="bg-teal-500 text-whit px-4 py-2 text-lg rounded-md shadow-sm"
-      >
-        About
       </Link>
     </div>
   );
 }
-
