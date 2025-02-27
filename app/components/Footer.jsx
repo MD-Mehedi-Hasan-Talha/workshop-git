@@ -83,13 +83,10 @@ export default function Footer() {
       </div>
 
       {/* footer */}
-      <div className="flex justify-between items-center mt-8 border-t border-gray-300 dark:border-gray-700 pt-4">
+      <div className="flex justify-center items-center mt-8 border-t border-gray-300 dark:border-gray-700 pt-4">
         <p className="text-sm">
           &copy; {new Date().getFullYear()} Demo. All rights reserved.
         </p>
-        <div className="flex items-center space-x-2">
-          <span className="text-sm">Damo</span>
-        </div>
       </div>
     </footer>
   );
