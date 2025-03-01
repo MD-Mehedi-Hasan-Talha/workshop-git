@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { IoIosArrowDown } from "react-icons/io";
 
 export default async function Home() {
   // fetch product data
@@ -11,9 +12,37 @@ export default async function Home() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        <h2 className="text-2xl font-bold tracking-tight text-gray-900">
-          Product List
-        </h2>
+        <div className="flex justify-between">
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+            Product List
+          </h2>
+          <div className="flex gap-6 items-center justify-center">
+            <div>
+              <input
+                type="text"
+                placeholder="Search product"
+                className="outline-teal-500 border-none px-3 py-2 text-base text-black ring-1 rounded-sm"
+              />
+            </div>
+            <div className="relative">
+              <span className="text-black text-base cursor-pointer">
+                Filter
+                <IoIosArrowDown className="inline-block ml-2 font-semibold text-base text-black" />
+              </span>
+              <div className="absolute top-10 z-10 right-0 bg-red-500 rounded-md w-[200px] p-5">
+                <ul>
+                  <li>Mobile</li>
+                  <li>Mobile</li>
+                  <li>Mobile</li>
+                  <li>Mobile</li>
+                  <li>Mobile</li>
+                  <li>Mobile</li>
+                  <li>Mobile</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div
           id="product-container"
