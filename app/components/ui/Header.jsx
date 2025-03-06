@@ -9,7 +9,7 @@ export default function Header() {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <header className="bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 p-4 shadow-xl z-10 sticky top-0">
+    <header className="bg-gradient-to-r  from-teal-400 via-teal-500 to-teal-600 p-4 shadow-xl z-20 sticky top-0">
       <div className="flex justify-between items-center w-full max-w-screen-xl mx-auto">
         {/* Logo or Brand Name */}
         <div className="text-white text-4xl font-extrabold tracking-wide transform hover:scale-105 transition-transform duration-300">
@@ -46,7 +46,7 @@ export default function Header() {
         <nav
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } md:flex md:items-center md:space-x-8 absolute md:static top-16 left-0 w-full md:w-auto bg-teal-600 md:bg-transparent p-4 md:p-0 transition-all duration-300 ease-in-out`}
+          } md:flex  md:items-center md:space-x-8 absolute md:static top-16 left-0 w-full md:w-auto bg-teal-600 md:bg-transparent p-4 md:p-0 transition-all duration-300 ease-in-out`}
         >
           <Link
             href="/login"
